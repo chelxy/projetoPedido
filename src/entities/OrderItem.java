@@ -37,8 +37,8 @@ public class OrderItem {
 		this.product = product;
 	}
 	
-	
-	
-	
+	public double subTotal() {
+		return price * quantity;
+	}
 
 }
